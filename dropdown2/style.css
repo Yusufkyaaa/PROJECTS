@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#amenu{
+text-align: center;
+list-style: none;
+background-color: rgb(86, 101, 150);
+}
+#amenu a{
+text-decoration: none;
+font-size: 1.5em;
+color: #fff;
+padding:1rem 2rem 1rem 2rem ;
+}
+#amenu li{
+padding: 0.8rem 0 ;
+display: inline-block;
+}
+#amenu a:hover{
+background-color: #fff;
+color: rgb(86, 101, 150);
+transition: 0.8s;
+}
+#menu2{
+position: absolute;
+z-index: 1;
+visibility: hidden;
+text-align: center;
+list-style: none;
+background-color: rgb(86, 101, 150);
+}
+.newsli:hover #menu2{
+visibility: visible;
+}
+.newsli:hover #menu2 li{
+display: block;
+}
+ #menu2 li{
+margin-top: 1rem;    
+}
