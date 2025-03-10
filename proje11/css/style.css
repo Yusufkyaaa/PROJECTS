@@ -1,0 +1,67 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#menu li{
+display: inline-block;
+list-style: none;
+}
+#menu a{
+text-decoration: none;
+padding: 0 1rem 0 1rem;
+color: #fff;
+font-size: 1.2rem;
+}
+#menu a:hover{
+color: #cca800;
+transition: 0.5s;
+}
+#head{
+height: 100vh;
+width: 100%;
+background-position: center;
+background-image: url("../img/banner.jpeg");
+background-size: cover;
+}
+#sp{
+    margin-top: 14rem;
+    font-size: 3rem;
+    }
+#bt{
+    border: 0;
+    font-size: 2rem;
+    border-radius: 5%;
+    padding: .2rem 1rem .2rem 1rem;
+    color: #fff;
+    background-color: #cca800;
+    }
+#bt:hover{
+background-color: #cca850;
+transition: .5rem;
+}
+#info i{
+    padding-bottom: .5rem;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #cca800;
+    color: #fff;
+    }
+#pf{
+background-color: #EEEEEE;
+}
+#ekip{
+font-size: 2rem;
+padding: 0 1rem 0 1rem;
+}
+#marka img{
+width: 50%;
+}
+#contact{
+background-image: url("/img/iletisim.png");
+height: 100%;
+background-position: center;
+background-size: cover;
+width: 100%;
+}
