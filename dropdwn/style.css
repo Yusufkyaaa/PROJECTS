@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ul{
+list-style: none;
+background-color: rgb(206, 94, 94);
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 25px 20px;
+display: block;
+text-align: center;
+}
+.dropdown li{
+display: block;
+}
+.dropdown{
+display: none;
+width: 5%;
+background-color: rgb(206, 94, 94);
+position: absolute;
+z-index: 999;
+}
+ul li a:hover{
+background-color: #fff;
+color: rgb(206, 94, 94);
+font-size: 1em;
+transition: 0.8s;
+}
+ul li:hover ul.dropdown{
+display: block;
+}
