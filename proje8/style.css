@@ -1,0 +1,116 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+width: 100%;
+min-height: 100vh;
+background-image: url(background.png);
+background-position: center;
+background-size: cover;
+}
+.sidebar{
+position: absolute;
+top: 0;
+right: 0;
+height: 50vh;
+width: 8%;
+background: rgba(0, 2, 63, 0.9);
+}
+.sidebar img{
+display: block;
+padding: 0 30% 0 30%;
+margin-top: 20%;
+}
+.social-media{
+position: absolute;
+bottom: 0;
+right: 0;
+background-color:#ed383d ;
+height: 49.9vh;
+width: 7.9%;
+}
+.social-media img{
+display: block;
+margin-left: 35%;
+padding-bottom: 30%;
+margin-top: 45%;
+}
+#play{
+position: absolute;
+top: 50%;
+left: 100%;
+transform: translate(-50%,-50%);
+}
+#logo{
+position: absolute;
+top: 0;
+left: 0;
+}
+#shop{
+position: absolute;
+top: 5%;
+left: 90%;
+}
+.main{
+background: rgba(0, 2, 63, 0.9);
+width: 52%;
+height: 100vh;
+position: absolute;
+top: 0;
+}
+.head{
+position: absolute;
+top: 27%;
+left: 25%;
+}
+.head h2{
+font-size: 3.5rem ;
+color: #fff;
+}
+.head h3{
+font-size: 2.5rem;
+color: #fff;
+}
+.head h1{
+color: #fff;
+font-size: 6em;
+}
+.head p{
+color: #fff;
+margin-top: 15%;
+}
+.line span{
+background-color: #ed383d;
+height: 100%;
+width: 50%;
+display: block;
+}
+#par2{
+position: absolute;
+top: 76.5%;
+left: 55%;
+}
+.info{
+position: absolute;
+top: 87%;
+left: 25%;
+}
+.info h4{
+color: #fff;
+}
+.info p{
+color: #fff;
+}
+.info2{
+position: absolute;
+top: 87%;
+left: 65%;
+}
+.info2 h4{
+color: #fff;
+}
+.info2 p{
+color: #fff;
+}

@@ -1,0 +1,155 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#menu{
+background-color: #F55050 !important;
+width: 15%;
+height: 200vh;
+position: fixed;
+float: left;
+}
+#menu h2{
+padding-left: 1.2em;
+}
+#b{
+padding-top: 2.5em;
+color: #fff;
+}
+#a{
+padding-top: 0.2em;
+color: #fff;
+}
+#menu ul{
+list-style: none;
+margin-left: 0.2em;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+#menu a{
+color: #fff;
+text-decoration: none;
+font-size: 1.2em;
+}
+#menu a:hover{
+color:#F55050 ;
+background-color: #ffff;
+transition: 0.6s;
+border-radius: 5px;
+margin: 0.5em;
+}
+#menu li{
+padding: 0.2em 0 0.2em 0;
+}
+#top{
+float: left;
+margin-left: 20%;
+margin-top: 4.5em;
+width: 60%;
+}
+#top h2{
+color: #CF0A0A;
+}
+#top hr{
+display: inline-block;
+border: 5px solid red;
+width: 5%;
+border-radius: 5px;
+}
+#resimler{
+float: left;
+margin-left: 20%;
+}
+#resimler img{
+width: 50%;
+float: left;
+padding: 0.3em;
+}
+#hakkımızda{
+float: left;
+margin-left: 20%;
+width: 50%;
+margin-top: 1em;
+}
+#hakkımızda h1{
+color: #CF0A0A;
+}
+#hakkımızda hr{
+    display: inline-block;
+    border: 5px solid red;
+    width: 5%;
+    border-radius: 5px;
+}
+#hizmetlerimiz{
+    float: left;
+    margin-left: 20%;
+    width: 50%;
+    margin-top: 1em;
+    }
+    #hizmetlerimiz h1{
+    color: #CF0A0A;
+    }
+    #hizmetlerimiz hr{
+        display: inline-block;
+        border: 5px solid red;
+        width: 5%;
+        border-radius: 5px;
+    }
+
+    #iletisim{
+        float: left;
+        margin-left: 20%;
+        width: 50%;
+        margin-top: 1em;
+        }
+        #iletisim h1{
+        color: #CF0A0A;
+        }
+        #iletisim hr{
+            display: inline-block;
+            border: 5px solid red;
+            width: 5%;
+            border-radius: 5px;
+        }
+        #iletisim button{
+        margin-top:1.5em ;
+        background-color: #F55050;
+        color: #fff;
+        padding: 0.3em;
+        }
+        #footer{
+        float: left;
+        margin-left: 10%;
+        width: 90%;
+        margin-top: 1em;
+        text-align: right;
+        background-color: #DDDDDD;
+        padding: 0.5em;
+        }
+        @media (max-width:767px){
+            #menu{
+            width: 40%;
+            }
+            #top{
+            margin-left: 45%;
+            }  
+            #resimler{
+                margin-left: 45%;
+            }  
+            #hakkımızda{
+                margin-left: 45%;
+            }
+            #hizmetlerimiz{
+            margin-left: 45%;
+            }
+            #iletisim{
+            margin-left: 45%;
+            }
+            #iletisim input{
+            width: 85%;
+            }
+        }
+#temizle{
+clear: both;
+}

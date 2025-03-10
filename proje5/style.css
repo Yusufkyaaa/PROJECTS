@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+#pic1{
+height: 45vh !important;
+width: 100% !important;
+}
+#menu{
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: #212A3E;
+}
+#menu li{
+list-style-type: none;
+display: inline-block;
+font-size: 1.5em;
+padding: 3px;
+width: 19%;
+}
+@media(max-width:768px){
+#menu {
+    flex-direction: column;
+}
+}
+#menu a{
+text-decoration: none;
+color: #F45050;
+}
+#menu a:hover{
+background-color: #F45050;
+color: #212A3E;
+transition: 0.5s;
+padding: 0 15px 0 15px;
+border-radius: 10px;
+}
+hr{
+width: 100%;
+color: #212A3E;
+}
+#menu2 ul{
+text-align: left;
+padding-top: 35px;
+}
+#menu2 li{
+list-style-type: none;
+padding: 15px 0 15px 0;
+}
+#menu2 a{
+text-decoration: none;
+color: #245953;
+font-size: 1.5em;
+}
+#menu2 a:hover{
+background-color: #245953;
+color: #E4D0D0;
+border-radius: 6px;
+padding: 5px 10px 5px 10px;
+transition: 0.5s;
+}
+#footer:hover{
+background-color: #EB455F;
+color: #E5D1FA;
+transition: 0.5s;
+border-radius: 50px;
+}

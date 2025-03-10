@@ -1,0 +1,250 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+#span1{
+font-size: 1.5em;
+background-color: red;
+color: #fff;
+}
+#span2{
+font-size: 1.3em;
+}
+#lists{
+text-align: right;
+list-style: none;
+}
+#lists a{
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+}
+#lists a:hover{
+color: #fff;
+background-color: #212A3E;
+transition: 0.6s;
+margin: 0 20% 0 20%;
+}
+#lists li{
+display: inline-block;
+}
+#banner{
+height: 60vh;
+}
+#p1{
+position: absolute;
+top: 79.5%;
+left: 5.7%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 8%;
+font-size: 1.5em;
+}
+#p2{
+position: absolute;
+top: 79.5%;
+left: 30.3%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 8%;
+font-size: 1.5em;
+}
+#p3{
+position: absolute;
+top: 79.5%;
+left: 54.7%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 8%;
+font-size: 1.5em;
+}
+#p4{
+position: absolute;
+top: 79.5%;
+left: 79.2%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 8%;
+font-size: 1.5em;
+}
+#p5{
+position: absolute;
+top: 111.9%;
+left: 5.7%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 8%;
+font-size: 1.5em;
+}
+#p6{
+    position: absolute;
+    top: 111.9%;
+    left: 30.2%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: #fff;
+    width: 8%;
+    font-size: 1.5em;
+}
+#p7{
+    position: absolute;
+    top: 111.9%;
+    left: 54.7%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: #fff;
+    width: 8%;
+    font-size: 1.5em;
+}
+#p8{
+    position: absolute;
+    top: 111.9%;
+    left: 79.2%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: #fff;
+    width: 8%;
+    font-size: 1.5em;
+}
+#bt{
+background-color: #D8D8D8;
+border: 0;
+padding: 0.5rem;
+}
+#bt:hover{
+background-color: #212A3E;
+color: #F1F6F9;
+transition: 0.6s;
+}
+#iletisim input{
+    background-color: #D8D8D8;
+    border: 0;
+    padding: 0.5rem;
+}
+#iletisim button{
+background-color: #000000;
+color: #fff;
+width: 9.5em;
+height: 3vh;
+border: 0;
+}
+#iletisim button:hover{
+background-color: #3C486B;
+color: #F0F0F0;
+transition: 0.6s;
+}
+#har{
+width: 100%;
+margin: 0;
+padding: 0;
+}
+@media (max-width:768px){
+#lists li{
+display: block;
+}
+#span1{
+font-size: 1em;
+}
+#p1{
+position: absolute;
+top: 78.5%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p2{
+position: absolute;
+top: 122.5%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p3{
+position: absolute;
+top: 148.5%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p4{
+position: absolute;
+top: 183.1%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p5{
+position: absolute;
+top: 220%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p6{
+position: absolute;
+top: 254.5%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p7{
+position: absolute;
+top: 289.3%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+#p8{
+position: absolute;
+top: 324.2%;
+left: 16.9%;
+margin: 0;
+transform: translate(-50%, -50%);
+background-color: black;
+color: #fff;
+width: 25%;
+font-size: 1.5em;
+}
+}

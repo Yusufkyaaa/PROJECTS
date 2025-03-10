@@ -1,0 +1,217 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #1e1c2a;
+}
+.menu li{
+display: inline-block;
+padding: 0 1em 0 1em;
+}
+.menu a{
+text-decoration: none;
+color: #fff;
+font-size: 1.2rem;
+}
+.menu a:hover{
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 1.3rem;
+transition: 0.8s;
+color: #ff702a;
+}
+.menu ul{
+margin-right: 12rem;
+}
+.head{
+margin-top: 12rem;
+}
+.head h1{
+color: #ff702a;
+font-size: 4rem;
+font-weight: bold;
+}
+.head p{
+color: #fff;
+font-size: 2rem;
+font-weight: bold;
+}
+.bt{
+background-color: #ff702a;
+color: #fff;
+border: 0;
+border-radius: 0.6rem;
+padding:0.5rem 1rem 0.5rem 1rem
+}
+.bt:hover{
+margin-top: 1.3rem;
+transition: 0.8s;
+}
+.about h5{
+color: #ff702a;
+}
+.about{
+padding-left: 15rem;
+padding-top: 3rem;
+}
+.about p{
+color: #fff;
+}
+#p1{
+font-size: 2.5rem;
+font-weight: bold;
+}
+.cards p{
+color: #fff;
+font-size: 2rem;
+font-weight: bold;
+}
+.food1{
+width: 25%;
+margin-left: 6rem;
+background-color: #feeee7;
+margin-right: 1rem;
+border-radius:1rem ;
+}
+.food2{
+width: 25%;
+background-color: #feeee7;
+margin-right: 1rem;
+border-radius:1rem ;
+}
+.food3{
+width: 25%;
+background-color: #feeee7;
+border-radius:1rem ;
+}
+.food1 img{
+width: 60%;
+}
+.food2 img{
+width: 60%;
+}
+.food3 img{
+width: 58%;
+}
+.food1 p{
+font-weight: bold;
+font-size: 1.2rem;
+margin-bottom: 0;
+}
+.food1 span{
+font-size: 1.2rem;
+padding-top: 0;
+margin-top: 0;
+}
+#sp1{
+color: #ff702a;
+font-weight: bold;
+}
+.food2 p{
+font-weight: bold;
+font-size: 1.2rem;
+margin-bottom: 0;
+}
+.food2 span{
+font-size: 1.2rem;
+padding-top: 0;
+margin-top: 0;
+}
+.food3 p{
+font-weight: bold;
+font-size: 1.2rem;
+margin-bottom: 0;
+}
+.food3 span{
+font-size: 1.2rem;
+padding-top: 0;
+margin-top: 0;
+}
+.siparis h3{
+color:#ff702a;margin-top:10%;
+}
+.siparis p{
+color: #fff;
+font-size: 2rem;
+font-weight: bold;
+}
+#orders{
+color: #ff702a;
+font-weight: bold;
+}
+#paras{
+color: #fff;
+}
+.talk{
+background-color: #feeee7;
+height: 33vh;
+padding: 5rem 0 5rem 0;
+border-radius: 1rem;
+}
+.fm1{
+padding: 0;
+list-style-type: none;
+}
+.fm1 a{
+text-decoration: none;
+color: #fff;
+}
+.fm1 li{
+padding: 0.5rem 0 0.5rem 0;
+}
+.fm1 a:hover{
+margin: 1.5rem;
+transition: 0.8s;
+color: #ff702a;
+}
+.fm1 i{
+background-color: #ff702a;
+font-size: 2rem;
+color: #fff;
+width: 10%;
+border-radius: 1.5rem;
+}
+#kaya{
+display: inline;
+padding: 0 0.5rem 0 0.5rem;
+}
+@media (max-width:768px){
+.menu li{
+display: block;
+text-align: center;
+margin-right: 2.5rem;
+}
+.about{
+padding-left: 2rem !important;
+}
+.head{
+margin-left: 6rem;
+}
+.food1{
+width: 50%;
+}
+.food2{
+width: 50%;
+margin-top: 2rem;
+margin-left: 6rem;
+}
+.food3{
+width: 50%;
+margin-top: 2rem;
+margin-left: 6rem;
+}
+.header{
+height: 6vh;
+}
+}
+@media (max-width:576px){
+.menu li{
+margin-top: 2rem;
+margin-right: 12rem;
+}
+.head{
+margin-top: 15rem;
+}
+}

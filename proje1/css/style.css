@@ -1,0 +1,90 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+#list{
+text-align: center;
+}
+#menu{
+background-color: #A0C3D2;
+}
+#lists{
+display: inline-block;
+padding: 15px 18px 0 18px;
+}
+#lists a{
+text-decoration: none;
+color: #2B3A55;
+}
+#lists a:hover{
+background-color:#2B3A55 ;
+color: #A0C3D2;
+border: 2px solid #A0C3D2 ;
+border-radius: 5px;
+padding: 10px;
+transition: .6s;
+}
+#about h1{
+text-align: center;
+color: white;
+}
+#about p{
+font-size: 1.5em;
+color: #fff;
+}
+#about{
+position: absolute;
+top: 50%;
+left: 50%;
+margin: 0;
+transform: translate(-50%, -50%);  
+}
+#about:hover{
+    background-image: url("https://img.freepik.com/free-vector/blue-gradient-futuristic-technology-background_23-2149120045.jpg?w=1380&t=st=1680448761~exp=1680449361~hmac=d00dc388a583efbc82025f7c06bd4506e1b3ca5bba8b4d0be2b12c0199efe53f");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    max-height: 100vh;
+    height: 80vh;
+    padding: 200px 20px 0 20px;
+}
+#menu2{
+text-align: center;
+}
+#menu2-list{
+background-color: #F5EBEB;
+}
+#menu2-list li{
+display: inline-block;
+padding: 30px 30px 0 30px ;
+}
+#menu2-list a{
+text-decoration: none;
+color: #867070;
+font-size: 1.5em;
+}
+#menu2-list  a:hover{
+background-color:#867070;
+color:#F5EBEB ;
+margin: 25px;
+padding: 20px 20px 0 20px;
+transition: 0.5s;
+border: 1px solid;
+border-radius: 10px;
+}
+#text{
+text-align: center;
+background-color: #B5D5C5
+}
+#text h1{
+color: #227C70;
+padding: 1em;
+}
+#text p{
+color: #495579;
+padding-left: 10em;
+padding-right: 10em;
+}

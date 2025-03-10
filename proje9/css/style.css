@@ -1,0 +1,233 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+}
+#header span{
+font-size: 1.2rem;
+}
+#header{
+background-color: white;
+box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}
+#menu li{
+display: inline-block;
+}
+#menu i{
+padding-right: 0.3rem;
+font-size: 1.2rem;
+}
+#menu a{
+text-decoration: none;
+font-size: 1.2rem;
+color: black;
+padding-right: 0.8rem;
+}
+#menu li:hover{
+background-color: grey;
+color: #fff;
+padding: 0 1.2rem 0 1.2rem ;
+transition: 0.8s;
+}
+#menu a:hover{
+color: #fff;
+transition: 0.8s;
+}
+#head img{
+margin: 0 !important;
+padding: 0 !important;
+width: 100%;
+height: 100%;
+}
+#head{
+background-position: center;
+background-size: cover;
+background-image: url("/img/mac.jpeg");
+height: 100vh;
+}
+#head span{
+font-size: 4rem;
+color: #fff;
+margin-top: 15%;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-left: 2%;
+}
+#head p{
+padding: 2%;
+color: #fff;
+padding-top: 0;
+margin-top: 0;
+font-size: 1.2rem;
+}
+#head button{
+margin-top: 1rem;
+margin-left: 2%;
+font-size: 1.1rem;
+width: 13%;
+background-color: gray;
+color: #fff;        
+border: 0;
+}
+#head button:hover{
+background-color: #fff;
+color: gray;
+transition: 0.8s;
+}
+#iconss li{
+list-style: none;
+display: inline-block;  
+margin-top: 15%;
+padding-top: 1rem;
+}
+#iconss a{
+color: #fff;
+font-size: 1.2rem;
+}
+#info span{
+font-size: 2rem;
+}
+#info2 i{
+font-size: 2rem;
+}
+#info2 span{
+font-size: 1.5rem;
+}
+#wow{
+background-color: black;
+color: #fff;
+border: 0;
+padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+}
+#wow i{
+padding-right: 0.6rem;
+}
+#befteam span{
+font-size: 1.8rem;
+}
+#befteam p{
+font-size: 1.3rem;
+}
+#team span{
+opacity: 0.5;
+}
+#team img{
+width: 99%;
+}
+#team button{
+background-color: #EAEAEA;
+width: 100%;
+color: black;
+font-size: 1.1rem;
+padding-top: .4rem;
+border: 0;
+}
+#team button:hover{
+background-color: #B2B2B2;
+}
+#team button i{
+color: black !important;
+padding-right: 0.5rem;
+}
+#teamcol{
+box-shadow: 1 .5rem 1.3rem rgba(0, 0, 0, .1);
+}
+#jesus p{
+width: 150%;
+}
+#jesus span{
+margin-right: 35%;
+letter-spacing: .3rem;
+font-size: 1.1rem;
+}
+
+#pics1 img{
+width: 100% !important;
+}
+#card1 {
+background-color: white;
+
+}
+#cardspan{
+display: inline-block;
+background-color: black !important;
+width: 100%;
+color: #fff;
+font-size: 2rem;
+height: 12vh;
+padding-top: 1.6rem;
+}
+#card1 button{
+background-color: black;
+color: #fff;
+padding: .8rem;
+border: 0;
+width: 50%;
+margin-top: 1.4rem;
+}
+#card1 button:hover{
+background-color: red;
+color: #fff;
+transition: 0.8s;
+border-radius: 8%;
+}
+#cardspan2{
+display: inline-block;
+background-color: red !important;
+width: 100%;
+color: #fff;
+font-size: 2rem;
+height: 15vh;
+padding-top: 2.3rem;
+font-size: 2.5rem !important;
+}
+#form input{
+margin-top: 1rem;
+width: 100%;
+border: 0;
+padding-left: 1rem;
+}
+#form button{
+background-color: black;
+color: #fff;
+width: 20%;
+padding-top: .6rem;
+padding-bottom: .6rem;
+border: 0;
+margin-left: .8rem;
+margin-top: 1rem;
+}
+#form button:hover{
+background-color: #fff;
+color: black;
+transition: .5s;
+}
+#footer button{
+width: 15%;
+background-color: #B2B2B2;
+border-radius:3% ;
+color: black;
+border: 0;
+height: 5vh;
+margin-top: 1rem;
+}
+#footer li{
+display: inline-block;
+color: #fff;
+}
+#footer ul{
+padding-top: 1rem;
+}
+@media (max-width:992px){
+#head span{
+width: 80%;
+}
+#head button{
+width: 28%;
+}
+} 

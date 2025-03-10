@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<div class="container-fluid ">
+    <div class="row mt-2 mx-2" >
+        <div class="col-2">
+            <span id="span1">Y İ K</span>
+            <span id="span2">Web Tasarım</span>
+        </div>
+        <div class="col-10">
+            <ul id="lists">
+                <li class="px-3">
+                    <a href="#">PROJELERİMİZ</a>
+                </li>
+                <li class="px-3">
+                    <a href="#">HAKKIMIZDA</a>
+                </li>
+                <li class="px-3">
+                    <a href="#">İLETİŞİM</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="banner">
+        <img src="banner.jpg" id="banner" alt="">
+    </div>
+    <div class="row mt-5 mx-2">
+        <h3>PROJELERİMİZ</h3>
+        <hr class="mt-3">
+    </div>
+    <div class="row mx-2">
+        <div class="col-md-3"><img src="proje1.jpg" class="w-100" alt="">
+           <span id="p1">Proje Adı 1</span>
+        </div>
+        <div class="col-md-3"><img src="proje2.jpg" class="w-100" alt="">
+            <span id="p2">Proje Adı 2</span>
+        </div>
+        <div class="col-md-3"><img src="proje3.jpg" class="w-100" alt="">
+            <span id="p3">Proje Adı 3</span>
+        </div>
+        <div class="col-md-3"><img src="proje4.jpg" class="w-100" alt="">
+            <span id="p4">Proje Adı 4</span>
+        </div>
+    </div>
+    <div class="row mt-4 mx-2">
+        <div class="col-md-3"><img src="proje5.jpg" class="w-100" alt="">
+            <span id="p5">Proje Adı 5</span>
+        </div>
+        <div class="col-md-3"><img src="proje6.jpg" class="w-100" alt="">
+            <span id="p6">Proje Adı 6</span>
+        </div>
+        <div class="col-md-3"><img src="proje7.jpg" class="w-100" alt="">
+            <span id="p7">Proje Adı 7</span>
+        </div>
+        <div class="col-md-3"><img src="proje8.jpg" class="w-100" alt="">
+            <span id="p8">Proje Adı 8</span>
+        </div>
+    </div>
+    <div class="row mt-5 mx-2">
+        <h2 class="mt-4">Hakkımızda</h2>
+        <hr class="mt-3">
+        <p style="font-weight: bold;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi blanditiis dignissimos est deserunt at necessitatibus ad, quisquam eius qui placeat totam repellat dolorem cum atque commodi vitae iste assumenda voluptas hic inventore? Accusantium, quaerat! Neque animi earum necessitatibus et ea quia? Ut quisquam assumenda quos rerum quidem necessitatibus officia cum minima molestias repellendus doloremque maiores, voluptatem beatae reprehenderit omnis quo autem aliquid illo deleniti debitis dolore, facere sunt ratione. Deleniti nihil nemo ipsam soluta maiores vero eaque dignissimos consequatur dicta!</p>
+    </div>
+    <div class="row mx-2">
+        <div class="col-md-3 mt-2">
+            <img src="calisan1.jpg" class="w-100" alt="">
+            <h2 class="mt-2">John Doe</h2>
+            <p style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus perferendis a sed reiciendis magni debitis veritatis exercitationem odio rem.</p>
+            <button class="w-100" id="bt">İletişim</button>
+        </div>
+        <div class="col-md-3 mt-2">
+            <img src="calisan2.jpg" class="w-100" alt="">
+            <h2 class="mt-2">John Doe</h2>
+            <p style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus perferendis a sed reiciendis magni debitis veritatis exercitationem odio rem.</p>
+            <button class="w-100" id="bt">İletişim</button>
+        </div>
+        <div class="col-md-3 mt-2">
+            <img src="calisan3.jpg" class="w-100" alt="">
+            <h2 class="mt-2">John Doe</h2>
+            <p style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus perferendis a sed reiciendis magni debitis veritatis exercitationem odio rem.</p>
+            <button class="w-100" id="bt">İletişim</button>
+        </div>
+        <div class="col-md-3 mt-2">
+            <img src="calisan4.jpg" class="w-100" alt="">
+            <h2 class="mt-2">John Doe</h2>
+            <p style="font-weight: bold;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus perferendis a sed reiciendis magni debitis veritatis exercitationem odio rem.</p>
+            <button class="w-100" id="bt">İletişim</button>
+        </div>
+    </div>
+    <div class="row mx-2 mt-5" id="iletisim">
+        <h3>İLETİŞİM</h3>
+        <hr class="mx-2">
+        <p style="font-weight: bold;">Bizimle iletişime geçmek için aşağıdaki formu kullanabilirsiniz</p>
+        <label for="adsoyad"></label>
+        <input class="mt-2" type="text" placeholder="Ad Soyad" id="adsoyad">
+        <label  for="eposta"></label>
+        <input class="mt-2" type="email" placeholder="E-posta" id="eposta">
+        <label for="konu"></label>
+        <input class="mt-2" type="text" placeholder="Konu" id="konu ">
+        <label for="mesaj"></label>
+        <input class="mt-2" type="text" placeholder="Message" id="mesaj">
+        <button class="mt-3" type="submit">Mesaj Gönder</button>
+    </div>
+    <div class="row mt-5">
+        <img src="harita.jpg" class="img-fluid" id="har"  style="height: 60vh;"alt="">
+    </div>
+    <div class="row bg-black ">
+        <h3 class="text-white text-center">Yusuf İrfan KAYA</h3>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

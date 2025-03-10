@@ -1,0 +1,95 @@
+body{
+background-color: #73777B;
+}
+#menubg{
+background-color: #73777B;
+border-bottom: 5px solid #19A7CE;
+}
+#menulist{
+text-align: left;
+padding-left: 15%;
+padding-bottom: 0;
+}
+#menulist li{
+display: inline-block;
+padding-left: 15px;
+padding-top: 15px;
+}
+#mainbg{
+background-color: #73777B;
+border-bottom:5px solid #19A7CE ;
+}
+#main li{
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#main{
+width: 900px;
+height: 50vh;
+position: relative;
+margin: auto;
+
+}
+#main a{
+text-decoration: none;
+color: black;
+padding-left: 8px;
+padding-right: 8px;
+font-size: 1.1em;
+}
+#main ul{
+background-color:#EEEEEE ;
+}
+#main a:hover{
+background-color: black;
+color: #73777B;
+padding: 12px;
+transition: 0.5s;
+border-radius: 5px;
+}
+#main img{
+width: 100%;
+height: 43vh;
+position: absolute;
+}
+#baslik1{
+position: absolute;
+top: 20%;
+left: 20%;
+margin: 0;
+transform: translate(-50%, -50%);
+}
+#baslik2{
+position: absolute;
+top: 30%;
+left: 25%;
+margin: 0;
+transform: translate(-50%, -50%);
+color:#13005A ;
+}
+#cards{
+width: 900px;
+height: 80vh;
+position: relative;
+margin: auto;
+}
+#jesus{
+background-color: #73777B;
+}
+#card1{
+width:24% ;
+display: inline-block;
+padding-left: 15px;
+padding-top:15px ;
+}
+#card1 img{
+width: 100%;
+}
+#jesus2{
+padding-top: 20px;
+}
+.footer{
+background-color: #343A40;
+padding: 15px;
+}

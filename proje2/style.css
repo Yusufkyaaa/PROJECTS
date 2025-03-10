@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #454545;
+}
+#menu h1{
+padding-top: 10px;
+color: #fff;
+}
+li{
+display: inline-block;
+font-size: 1.5em;
+padding-top:15px ;
+}
+a{
+text-decoration: none;
+padding: 10px 10px 0 10px;
+color: #fff;
+}
+ul{
+text-align: right;
+}
+a:hover{
+padding: 0 25px 0 25px;
+border: 2px solid #C7E9B0 ;
+border-radius: 5px;
+background-color: #fff;
+color: #454545;
+transition: 0.5s;
+}
+#main{
+border: 10px solid white;
+}
+#cards{
+display: inline-block;
+width: 33%;
+margin-top: 15px;
+margin-bottom: 15px;
+background-color: #F3DEBA;
+text-align: center;
+}
